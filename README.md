@@ -5,6 +5,8 @@ for DevOps, Site Reliability Engineers (SREs), and engineers who need to poke ar
 environments, or microservices in cloud-based or containerized setups such as Kubernetes, Cloud Run, and other 
 serverless platforms.
 
+![Screenshot](https://github.com/user-attachments/assets/df3889de-178c-43c6-b140-79925ca27fa6)
+
 ## Features
 
 - Access to a web-based terminal that mimics a typical command-line interface.
@@ -87,8 +89,10 @@ docker run -d -p 8089:80 --name cmd cmd
 This will stop the currently running container, rebuild the image, and start a new container.
 
 ### Contributions
-Feel free to fork this repository and submit pull requests. This tool is designed to help others, and contributions 
-that improve functionality or add new features are always welcome.
 
-### License
-This project is open source and licensed under the MIT License. See the LICENSE file for more information.
+Please open a GitHub issue for discussion before opening a pull-request.
+
+Once created, create your branch in the following format: `{feature|hotfix}/{github-issue-number}` and open the 
+relevant pull-request into the master branch for review.
+
+All contributions, no matter how large or small, are welcome.
